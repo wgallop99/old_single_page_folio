@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="client/bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Will Gallop</title>
+</head>
+<body class="body" data-spy="scroll" data-target=".nav">
+
+  <header class="container">
+    <div class="name">
+      <img src="images/WGLogo2.png" alt="">
+      <h2>WILL GALLOP</h2>
+      <h4>Front-End Engineer & Wanna-be Nerd</h4>
+      <p><a href="mailto:wgallop99@gmail.com">wgallop99@gmail.com</a> | <a href="tel:4349622167">434.962.2167</a></p>
+    </div>
+
+<!--     <img src="images/WGLogo2.png" alt="">
+ -->
+
+
+  </header>
+
+
+  <div class="banner">
+    <div class="welcome container">
+      <h1>Hello,</h1>
+      <h1>I am a Front-End Developer and recent graduate of The Iron Yard.</h1>
+      <h1>I created this site to share cool things I've done.</h1>
+
+      <div class="downWrap">
+        <a class="down fa fa-arrow-down animate"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="work row" id="work">
+    <div class="container">
+      <div class="container workHeading" data-spy="affix" data-offset-top="720">
+        <h1>PORTFOLIO</h1>
+        <ul class="nav navbar-nav">
+          <li class="homeTag"><a>Home</a></li>
+          <li class="workTag"><a>Work</a></li>
+          <li class="aboutTag"><a>About</a></li>
+          <li class="contactTag"><a>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="commish col-lg-6 col-md-6 col-sm-12">
+      <img src="../images/commish3.png" alt="">
+      <div class="textbox">
+        <p>
+          <a class="text fa fa-info-circle" data-toggle="modal" data-target=".commishModal"></a> | <a href="https://commish.firebaseapp.com" class="text fa fa-eye"></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="sendsay col-lg-6 col-md-6 col-sm-12">
+      <img src="../images/sendsay3.png" alt="">
+      <div class="textbox">
+        <p>
+          <a class="text fa fa-info-circle" data-toggle="modal" data-target=".sendsayModal"></a> | <a href="http://sendsay.herokuapp.com/#/" class="text fa fa-eye"></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="stage col-lg-6 col-md-6 col-sm-12">
+      <img src="../images/stage3.png" alt="">
+      <div class="textbox">
+        <p>
+          <a class="text fa fa-info-circle" data-toggle="modal" data-target=".stageModal"></a> | <a href="http://margaretgodowns.github.io/rageCake/" class="text fa fa-eye"></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="powell col-lg-6 col-md-6 col-sm-12">
+      <img src="../images/powell-peralta3.png" alt="">
+      <div class="textbox">
+        <p>
+          <a class="text fa fa-info-circle" data-toggle="modal" data-target=".powellModal"></a> | <a href="http://wgallop99.github.io/Will_Powell_Peralta/" class="text fa fa-eye"></a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+<!--   MODALS -->
+
+  <div class="modal fade commishModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body row">
+          <div class="content col-lg-12 row">
+            <div class="col-lg-6 col-md-6 col-sm-6 description">
+              <a class="fa fa-times" class="close" data-dismiss="modal"></a>
+              <h1>Commish Sports</h1>
+            </div>
+            <img class="col-lg-6 col-md-6 col-sm-6" src="images/commish.png" alt="">
+          </div>
+
+          <div class="content col-lg-12 row">
+            <img class="col-lg-6 col-md-6 col-sm-6" src="images/commish2.png" alt="">
+            <div class="col-lg-6 col-md-6 col-sm-6 description">
+              <h1>Tech = Angular.js + Firebase + Bootstrap</h1>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade sendsayModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body row">
+           <div class="content col-lg-12 row">
+            <div class="col-lg-6 col-md-6 col-sm-6 description">
+              <a class="fa fa-times" class="close" data-dismiss="modal"></a>
+              <h1>Sendsay</h1>
+            </div>
+            <img class="col-lg-6 col-md-6 col-sm-6" src="images/sendsay.png" alt="">
+          </div>
+
+          <div class="content col-lg-12 row">
+            <img class="col-lg-6 col-md-6 col-sm-6" src="images/sendsay2.png" alt="">
+            <div class="col-lg-6 col-md-6 col-sm-6 description">
+              <h1>Tech = Angular.js</h1>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade stageModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body row">
+          <div class="content col-lg-12 row">
+            <div class="col-lg-6 col-md-6 col-sm-6 description">
+              <a class="fa fa-times" class="close" data-dismiss="modal"></a>
+              <h1>Stage</h1>
+            </div>
+            <img class="col-lg-6 col-md-6 col-sm-6" src="images/stage.png" alt="">
+          </div>
+
+          <div class="content col-lg-12 row">
+            <img class="col-lg-6 col-md-6 col-sm-6" src="images/stage2.png" alt="">
+            <div class="col-lg-6 col-md-6 col-sm-6 description">
+              <h1>Tech = jQuery + BandsInTown API</h1>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade powellModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body row">
+          <div class="content col-lg-12 row">
+            <div class="col-lg-6 col-md-6 col-sm-6 description">
+              <a class="fa fa-times" class="close" data-dismiss="modal"></a>
+              <h1>Powell-Peralta</h1>
+            </div>
+            <img class="col-lg-6 col-md-6 col-sm-6" src="images/powell-peralta.png" alt="">
+          </div>
+
+          <div class="content col-lg-12 row">
+            <img class="col-lg-6 col-md-6 col-sm-6" src="images/powell-peralta2.png" alt="">
+            <div class="col-lg-6 col-md-6 col-sm-6 description">
+              <h1>Tech = jQuery + Foundation</h1>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+
+<!--   END MODALS -->
+  <div class="aboutMe row" id="about">
+    <div class="container aboutHeading">
+      <div class="container workHeading" data-spy="affix" data-offset-top="1445">
+        <h1 class="aboutHeader">ABOUT ME</h1>
+        <ul class="nav navbar-nav">
+          <li class="homeTag"><a>Home</a></li>
+          <li class="workTag"><a>Work</a></li>
+          <li class="aboutTag"><a>About</a></li>
+          <li class="contactTag"><a>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bio">
+      <img class="profPic" src="images/WillGallop.jpg" alt="">
+      <div class="bioText container">
+        <p>About a year ago I moved to Charleston, SC after graduating college with a degree in Business Administration. The exponential growth of the Charleston tech scene inspired me to learn more about websites and the tech involved behind them. I began taking night classes at The Digital Corridor with no real intention of allowing code to take over my life, however, it did</p>
+        <p>After committing to my new found passion, I decided the next step had to be a big one. The Iron Yard, a three month programming fist-fight, was the path I would persue. The Front-End engineering discipline interested me because of it's emphasis on responsive design combined with effective re-usable functionality.</p>
+        <p>Fast-forward to now and I know I'm ready. Ready to continue my never-ending quest with code.</p>
+        <div class="contactMe">
+          <p>If you'd like to chat about...anything, feel free to contact me here:</p>
+          <a href="mailto:wgallop99@gmail.com">wgallop99@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-group row" class="accordion">
+      <div class="panel panel-default col-lg-6 skillsMain">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <i class="fa fa-trophy"></i>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSkill">
+               Skills
+            </a>
+          </div>
+        </div>
+        <div id="collapseSkill" class="panel-collapse collapse">
+          <div class="panel-body row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <h3>HTML5/CSS3</h3>
+              <ul>
+                <li>Sass</li>
+                <li>Compass</li>
+                <li>Responsive Design</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <h3>Javascript</h3>
+              <ul>
+                <li>JQuery</li>
+                <li>Node.js</li>
+                <li>Angular.js</li>
+                <li>Underscore.js</li>
+                <li>Moment.js</li>
+                <li>JSON/JSONP</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <h3>Back-End</h3>
+              <ul>
+                <li>Ruby on Rails</li>
+                <li>MongoDB</li>
+                <li>Heroku</li>
+                <li>Firebase</li>
+                <li>MySQL with Sequel Pro</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3">
+
+              <h3>Other Tools</h3>
+              <ul>
+                <li>Bootstrap</li>
+                <li>Foundation</li>
+                <li>Yeoman</li>
+                <li>Grunt and Gulp</li>
+                <li>NPM and Bower</li>
+                <li>Git Version Control</li>
+                <li>Adobe Photoshop and Indesign</li>
+                <li>Wireframing</li>
+                <li>Agile Project Management</li>
+                <li>Jasmine and Mocha</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default col-lg-6 col-md-6 col-sm-12">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <i class="fa fa-child"></i>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              Other
+            </a>
+          </div>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+          <div class="panel-body">
+            <h4>Soccer Hooligan/Coach</h4>
+            <h4>Beer Drinker</h4>
+            <h4>Earth Traveler</h4>
+            <h4>Blogger</h4>
+            <h4></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-group secondPanel row" class="accordion">
+      <div class="panel panel-default col-lg-6 col-md-6 col-sm-12">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <i class="fa fa-suitcase"></i>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+               Previous Work
+            </a>
+          </div>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+
+            <h4>William Means Real Estate Marketing Assistant</h4>
+            <p>September 2013 – May 2014</p>
+            <ul>
+              <!-- li>Prepared, maintained and distributed Marketing materials, such as brochures and e-blasts, using Adobe InDesign and Photoshop</li>
+              <li>Utilized Multiple Listings Service (MLS) and Microsoft Excel to display, organize, and record all New, Sold, and Contingently held listings, while also keeping a detailed secondary record of each listing in case of audit  </li>
+              <li>Prioritized administrative responsibilities handed down by departmental directors, thirty five agents, and the Broker-in-Charge</li>
+              <li>Updated social media platforms with information regarding new listings </li> -->
+            </ul>
+
+            <h4>Aspetto Inc. and American Armor Attire, Sales Executive and Marketing Consultant</h4>
+            <p>August 2012 – May 2013</p>
+            <ul>
+              <!-- <li>Published content for newsletters, websites, and catalogues, while also maintaining the companies social media platforms </li>
+              <li>Organized labeling and packaging strategies for both companies </li>
+              <li>Trained and managed Marketing interns	</li> -->
+            </ul>
+
+            <h4>University of Mary Washington Athletics Department, Marketing Intern</h4>
+            <p>August 2011 – May 2012</p>
+            <ul>
+              <!-- <li>Established a social media presence for the University of Mary Washington Athletic Department, and it's 22 Varsity Teams</li>
+              <li>Reached a fan base of 1,000+ fans on Facebook.com/UMWathletics in under 9 months</li>
+              <li>Planned and Executed over 10 promotional campaigns to gain support across the various social media platforms</li>
+              <li>Filmed and Edited the 2011-2012 UMW Athletics Highlight Video</li>
+              <li>Ordered/Sold Eagle Nation wristbands that made 140% profit </li> -->
+            </ul>
+
+            <h4>Resident Assistant (RA), University of Mary Washington</h4>
+            <p>August 2010 – May 2011</p>
+            <!-- <ul>
+              <li>Organized all necessary paperwork for each resident </li>
+              <li>Social Coordinator: designed staff bonding activities </li>
+              <li>Stability Coordinator: scheduled and monitored recycling and other initiatives </li>
+              <li>Coordinated programs for residents </li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default col-lg-6 col-md-6 col-sm-12">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <i class="fa fa-university"></i>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+              Education
+            </a>
+          </div>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">
+
+            <h4>The Iron Yard Academy; Charleston, SC</h4>
+            <p>July 2014 - October 2014</p>
+<!--             <p>An intensive, 13-week front-end engineering program in Greenville, S.C., taught by developer-pro Calvin Webster</p>
+ -->
+            <h4>Charleston Digital Corridor: CODE Camp; Charleston, SC</h4>
+            <p>May 2014 - June 2014</p>
+            <!-- <ul>
+              <li>Web Basics 101 and 102: Took classes taught by industry leading web development professionals</li>
+              <li>Language Competencies: HTML, CSS, and JavaScript </li>
+            </ul> -->
+
+            <h4>University of Mary Washington: College of Business; Fredericksburg, VA </h4>
+            <p>August 2008 - December 2012</p>
+            <ul>
+              <!-- <li>Dean’s List </li>
+              <li>Marketing and Management concentration</li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact container">
+      <h1>CONTACT</h1>
+      <div class="headerIcons">
+        <a class="fa fa-twitter-square" href="https://twitter.com/wgallop9"></a>
+        <a href="https://github.com/wgallop99" class="fa fa-github-square"></a>
+        <a href="http://www.linkedin.com/pub/will-gallop/27/a0/84/" class="fa fa-linkedin-square"></a>
+      </div>
+      <a href="tel:4349622167">434.962.2167</a>
+      <a href="#">willgallop.github.io</a>
+      <a class="email" href="mailto:wgallop99@gmail.com">wgallop99@gmail.com</a>
+
+    </div>
+
+  </div>
+
+  <script src="client/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/jquery-scrollto/out/lib/jquery-scrollto.js"></script>
+  <script src="client/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
