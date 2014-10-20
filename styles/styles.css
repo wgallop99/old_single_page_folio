@@ -237,7 +237,8 @@ header {
   border-radius: 0px;
   color: white;
   height: 700px;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: center; }
   .modal-content .fa {
     float: left;
     font-size: 2em;
@@ -254,6 +255,15 @@ header {
     font-size: 4em;
     margin: 0px;
     padding: 130px 0px 0px 0px; }
+  .modal-content .modalLink p {
+    font-size: 2.5em;
+    display: inline-block;
+    padding: 0px 10px; }
+  .modal-content .modalLink .fa {
+    font-size: 2.5em;
+    padding: 0px;
+    margin: 0px;
+    float: none; }
 
 .commishModal .modal-content {
   background-color: #42bbee; }
@@ -389,10 +399,17 @@ header {
   .commish, .sendsay, .stage, .powell {
     height: 160px; }
     .commish img, .sendsay img, .stage img, .powell img {
-      height: 160px; } }
+      height: 160px; }
+  .modal-content img {
+    width: 200px;
+    height: 100px; } }
 
 @media screen and (max-width: 620px) {
   .banner {
     background: #0A2140; }
     .banner h1 {
       font-size: 20px; } }
+
+@media screen and (max-width: 450px) {
+  .modal-content h3 {
+    font-size: 15px; } }

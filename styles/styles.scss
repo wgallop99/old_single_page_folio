@@ -320,6 +320,7 @@ font-size: 50px;
   color: white;
   height: 700px;
   overflow: hidden;
+  text-align: center;
 
   .fa {
 
@@ -344,6 +345,22 @@ font-size: 50px;
     font-size: 4em;
     margin: 0px;
     padding: 130px 0px 0px 0px;
+  }
+
+  .modalLink {
+
+    p {
+      font-size: 2.5em;
+      display: inline-block;
+      padding: 0px 10px;
+    }
+
+    .fa {
+      font-size: 2.5em;
+      padding: 0px;
+      margin: 0px;
+      float: none;
+    }
   }
 }
 
@@ -573,6 +590,14 @@ font-size: 50px;
     }
   }
 
+  .modal-content {
+
+    img {
+      width: 200px;
+      height: 100px;
+    }
+  }
+
 }
 
 @media screen and (max-width: 620px) {
@@ -584,4 +609,13 @@ font-size: 50px;
     }
   }
 
+}
+
+@media screen and (max-width: 450px) {
+
+  .modal-content {
+    h3 {
+      font-size: 15px;
+    }
+  }
 }
