@@ -272,7 +272,8 @@ header {
   margin: 0px; }
 
 .bioText {
-  text-align: left; }
+  text-align: left;
+  padding-bottom: 30px; }
   .bioText .contactMe {
     text-align: center; }
   .bioText a {
@@ -287,6 +288,8 @@ header {
 
 .aboutMe {
   height: 745px; }
+  .aboutMe .row {
+    padding: 20px; }
   .aboutMe .aboutHeading {
     height: 60px; }
   .aboutMe .profPic {
@@ -311,13 +314,13 @@ header {
     padding: 0px;
     background-color: white;
     border: transparent;
-    border-radius: 0px;
-    margin-bottom: 20px; }
+    border-radius: 0px; }
   .aboutMe .panel-heading {
     border-radius: 0px;
     text-align: center;
     background-color: #0A2140;
-    border-bottom: transparent; }
+    border-bottom: transparent;
+    padding: 0px; }
   .aboutMe .panel-body {
     border: transparent;
     background-color: white;
@@ -368,3 +371,28 @@ header {
     .contact .headerIcons a {
       display: inline-block;
       font-size: 3em; }
+
+/* Responsive section */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%; }
+  .workHeading .nav {
+    display: none; }
+  .nav {
+    display: none; }
+  .downWrap a {
+    border: 5px solid white; }
+  .textbox {
+    margin-top: 0px; }
+    .textbox .text {
+      padding-top: 60px; }
+  .commish, .sendsay, .stage, .powell {
+    height: 160px; }
+    .commish img, .sendsay img, .stage img, .powell img {
+      height: 160px; } }
+
+@media screen and (max-width: 620px) {
+  .banner {
+    background: #0A2140; }
+    .banner h1 {
+      font-size: 20px; } }

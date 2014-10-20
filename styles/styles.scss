@@ -371,6 +371,7 @@ font-size: 50px;
 
 .bioText {
   text-align: left;
+  padding-bottom: 30px;
 
   .contactMe {
     text-align: center;
@@ -394,6 +395,10 @@ font-size: 50px;
 
 .aboutMe {
   height: 745px;
+
+  .row {
+    padding: 20px;
+  }
 
   .aboutHeading {
     height: 60px;
@@ -432,7 +437,6 @@ font-size: 50px;
     background-color: white;
     border: transparent;
     border-radius: 0px;
-    margin-bottom: 20px;
   }
 
   .panel-heading {
@@ -440,6 +444,7 @@ font-size: 50px;
     text-align: center;
     background-color: $dark-blue;
     border-bottom: transparent;
+    padding: 0px;
   }
 
   .panel-body {
@@ -529,5 +534,54 @@ font-size: 50px;
 
 @media screen and (max-width: 768px) {
 
+  .container {
+    width: 100%;
+  }
+
+  .workHeading {
+
+    .nav {
+      display: none;
+    }
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .downWrap {
+
+    a{
+      border: 5px solid white;
+    }
+  }
+
+
+  .textbox {
+    margin-top: 0px;
+
+    .text {
+      padding-top: 60px;
+    }
+  }
+
+  .commish, .sendsay, .stage, .powell {
+    height: 160px;
+
+    img {
+      height: 160px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+  .banner {
+    background: $dark-blue;
+
+    h1 {
+      font-size: 20px;
+    }
+  }
 
 }
