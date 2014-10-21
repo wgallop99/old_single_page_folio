@@ -499,10 +499,10 @@ font-size: 50px;
     color: white;
     margin-top: 5px;
     padding: 10px;
+    display: block;
   }
 
   .fa {
-    display: block;
     font-size: 8em;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     margin-bottom: 10px;
@@ -510,19 +510,23 @@ font-size: 50px;
 
   .fa-suitcase {
     color: #61422A;
+    cursor: pointer;
   }
 
   .fa-university {
     color: #FFFABF;
+    cursor: pointer;
 
   }
 
   .fa-trophy {
     color: #ffc242;
+    cursor: pointer;
   }
 
   .fa-child {
-    color: #FF312A
+    color: #FF312A;
+    cursor: pointer;
   }
 }
 

@@ -354,20 +354,24 @@ header {
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
   color: white;
   margin-top: 5px;
-  padding: 10px; }
+  padding: 10px;
+  display: block; }
 .panel-title .fa {
-  display: block;
   font-size: 8em;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
   margin-bottom: 10px; }
 .panel-title .fa-suitcase {
-  color: #61422A; }
+  color: #61422A;
+  cursor: pointer; }
 .panel-title .fa-university {
-  color: #FFFABF; }
+  color: #FFFABF;
+  cursor: pointer; }
 .panel-title .fa-trophy {
-  color: #ffc242; }
+  color: #ffc242;
+  cursor: pointer; }
 .panel-title .fa-child {
-  color: #FF312A; }
+  color: #FF312A;
+  cursor: pointer; }
 
 /* contact section */
 .contact {
